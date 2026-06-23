@@ -250,7 +250,6 @@ SQL-файлы:
 - `stages/stage2/sql/schema.sql` — структура;
 - `stages/stage2/sql/load_data.psql` — загрузка CSV;
 - `stages/stage2/sql/analytics_queries.sql` — аналитические запросы;
-- `stages/stage2/sql/demo_queries.sql` — демонстрация базы.
 
 ## Аналитические запросы
 

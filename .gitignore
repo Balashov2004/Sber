@@ -9,9 +9,6 @@ __pycache__/
 .postgres-demo/
 .env
 .env.*
-
-# Raw procurement snapshots can become large. Keep the pipeline reproducible,
-# but do not commit bulk downloads by default.
 data/raw/
 data/interim/*.csv
 logs/*.csv

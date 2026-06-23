@@ -31,16 +31,6 @@ def write_csv(path: Path, rows: list[dict[str, str]]) -> int:
     return len(rows)
 
 
-def dedupe_by_key(rows: list[dict[str, str]], key_fields: tuple[str, ...]) -> list[dict[str, str]]:
-    unique = {}
-    for row in rows:
-        key = tuple(row.get(field, "") for field in key_fields)
-        if not any(key):
-            key = tuple(row.items())
-        unique[key] = row
-    return list(unique.values())
-
-
 def procurement_key(row: dict[str, str]) -> tuple[str, str]:
     record_id = next(
         (

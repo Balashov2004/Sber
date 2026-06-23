@@ -144,38 +144,6 @@ def normalize_purchase(row: dict[str, str], strict_ids: set[tuple[str, str]]) ->
     }
 
 
-def dedupe_purchases(rows: list[dict[str, object]]) -> tuple[list[dict[str, object]], list[dict[str, object]], dict[str, object]]:
-    exact_groups: dict[tuple[object, object], list[dict[str, object]]] = defaultdict(list)
-    for row in rows:
-        exact_groups[(row["source_system"], row["source_record_id"])].append(row)
-
-    exact_duplicate_rows = []
-    exact_unique = []
-    for key, group in exact_groups.items():
-        group.sort(key=lambda row: row.get("is_strict_sber_match") == "1", reverse=True)
-        if key[1] and len(group) > 1:
-            for duplicate in group[1:]:
-                duplicate_copy = dict(duplicate)
-                duplicate_copy["duplicate_type"] = "exact_source_record"
-                exact_duplicate_rows.append(duplicate_copy)
-        exact_unique.append(group[0])
-
-    final_rows = exact_unique
-    duplicate_rows = list(exact_duplicate_rows)
-
-    stats = {
-        "input_rows": len(rows),
-        "unique_rows": len(final_rows),
-        "duplicate_rows": len(duplicate_rows),
-        "exact_duplicate_rows": len(exact_duplicate_rows),
-        "content_signature_duplicate_rows": 0,
-        "strict_rows": sum(1 for row in final_rows if row.get("is_strict_sber_match") == "1"),
-        "candidate_rows": sum(1 for row in final_rows if row.get("is_strict_sber_match") != "1"),
-        "by_source": dict(Counter(str(row["source_system"]) for row in final_rows)),
-    }
-    return final_rows, duplicate_rows, stats
-
-
 def normalize_organizations(rows: list[dict[str, str]]) -> list[dict[str, object]]:
     output = []
     for row in rows:
@@ -194,25 +162,6 @@ def normalize_organizations(rows: list[dict[str, str]]) -> list[dict[str, object
             }
         )
     return output
-
-
-def build_document_plan(purchases: list[dict[str, object]]) -> list[dict[str, object]]:
-    rows = []
-    for purchase in purchases:
-        source_url = str(purchase.get("source_url") or "")
-        if not source_url:
-            continue
-        rows.append(
-            {
-                "source_system": purchase.get("source_system", ""),
-                "source_record_id": purchase.get("source_record_id", ""),
-                "purchase_number": purchase.get("purchase_number", ""),
-                "document_url": source_url,
-                "document_type": "source_card_or_document_link",
-                "processing_idea": "download metadata first; extract text with OCR/Tika; run anonymization; classify requirements, dates, participants, and contract terms with LLM",
-            }
-        )
-    return rows
 
 
 def normalize_enriched_purchase(row: dict[str, str]) -> dict[str, object]:
@@ -413,42 +362,6 @@ def main() -> None:
     write_csv(args.out_dir / "purchase_duplicates.csv", duplicate_rows)
     write_csv(args.out_dir / "organizations_clean.csv", organizations)
     write_csv(args.out_dir / "purchase_documents_plan.csv", document_plan)
-    write_csv(
-        args.out_dir / "purchase_duplicates_db.csv",
-        duplicate_rows,
-        fieldnames=[
-            "canonical_purchase_id",
-            "duplicate_source",
-            "duplicate_record_id",
-            "kept_source",
-            "kept_record_id",
-            "duplicate_type",
-            "match_method",
-            "match_confidence",
-            "purchase_number",
-            "publication_date",
-            "amount_rub",
-            "source_url",
-        ],
-    )
-    write_csv(
-        args.out_dir / "purchase_documents_db.csv",
-        document_plan,
-        fieldnames=[
-            "canonical_purchase_id",
-            "purchase_number",
-            "source_system",
-            "card_url",
-            "document_url",
-            "document_type",
-            "metadata_status",
-            "download_status",
-            "extraction_status",
-            "anonymization_status",
-            "processing_priority",
-            "processing_idea",
-        ],
-    )
     (args.out_dir / "duplicate_stats.json").write_text(json.dumps(stats, ensure_ascii=False, indent=2), encoding="utf-8")
     (args.out_dir / "initial_analysis.json").write_text(
         json.dumps(initial_analysis, ensure_ascii=False, indent=2), encoding="utf-8"

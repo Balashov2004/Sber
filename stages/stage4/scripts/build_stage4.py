@@ -44,16 +44,6 @@ def svg(path: Path, width: int, height: int, body: str) -> None:
     )
 
 
-def line_points(values: list[float], left: int, top: int, width: int, height: int) -> str:
-    maximum = max(values) if values else 1
-    maximum = maximum or 1
-    return " ".join(
-        f"{left + index * width / max(1, len(values) - 1):.1f},"
-        f"{top + height - value * height / maximum:.1f}"
-        for index, value in enumerate(values)
-    )
-
-
 def monthly_chart(rows: list[dict[str, str]]) -> None:
     width, height = 1280, 620
     left, top, plot_width, plot_height = 80, 80, 1120, 420

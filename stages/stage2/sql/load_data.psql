@@ -19,9 +19,9 @@ RESTART IDENTITY CASCADE;
 
 \copy sber_procurement.purchase_candidates (source_system, source_record_id, purchase_number, title, customer_name, customer_inn, publication_date, amount_rub, source_url, match_quality) FROM 'data/processed/stage2/purchase_candidates_db.csv' WITH (FORMAT csv, HEADER true, ENCODING 'UTF8');
 
-\copy sber_procurement.duplicate_audit (canonical_purchase_id, duplicate_source, duplicate_record_id, kept_source, kept_record_id, duplicate_type, match_method, match_confidence, purchase_number, publication_date, amount_rub, source_url) FROM 'data/processed/stage2/purchase_duplicates_db.csv' WITH (FORMAT csv, HEADER true, ENCODING 'UTF8');
+\copy sber_procurement.duplicate_audit (canonical_purchase_id, duplicate_source, duplicate_record_id, kept_source, kept_record_id, duplicate_type, match_method, match_confidence, purchase_number, publication_date, amount_rub, source_url) FROM 'data/processed/stage2/purchase_duplicates.csv' WITH (FORMAT csv, HEADER true, ENCODING 'UTF8');
 
-\copy sber_procurement.documents (canonical_purchase_id, purchase_number, source_system, card_url, document_url, document_type, metadata_status, download_status, extraction_status, anonymization_status, processing_priority, processing_idea) FROM 'data/processed/stage2/purchase_documents_db.csv' WITH (FORMAT csv, HEADER true, ENCODING 'UTF8');
+\copy sber_procurement.documents (canonical_purchase_id, purchase_number, source_system, card_url, document_url, document_type, metadata_status, download_status, extraction_status, anonymization_status, processing_priority, processing_idea) FROM 'data/processed/stage2/purchase_documents_plan.csv' WITH (FORMAT csv, HEADER true, ENCODING 'UTF8');
 
 SELECT 'organizations' AS table_name, count(*) AS rows_count FROM sber_procurement.organizations
 UNION ALL SELECT 'purchases', count(*) FROM sber_procurement.purchases
