@@ -16,25 +16,92 @@
 В репозитории оставлен один Notebook. Все восемь графиков встроены непосредственно
 в файл как сохранённые результаты ячеек, поэтому видны сразу после открытия.
 
-## Быстрый запуск через кнопки
+## Запуск по этапам
 
-| Файл | Что делает |
-|---|---|
-| `setup_environment.cmd` | Создаёт `.venv` и устанавливает зависимости |
-| `start_project.cmd` | Открывает единое меню всех этапов |
-| `update_database.cmd` | Загружает актуальные CSV в PostgreSQL |
-| `run_stage3_qwen.cmd` | Запускает следующую порцию локального LLM-анализа |
-| `run_stage4.cmd` | Пересобирает финальные графики и Notebook |
-| `open_notebook.cmd` | Открывает финальный Notebook в Jupyter Lab |
+В PyCharm возле команд `python run_project.py ...` отображается зелёная
+стрелка. Нажатие запускает выбранный этап в терминале. Этапы выполняются сверху
+вниз.
 
-Рекомендуемый первый запуск:
+### 1. Установить окружение
 
-```text
-1. setup_environment.cmd
-2. start_project.cmd
-3. В меню выбрать пункт 7
-4. При необходимости выбрать пункт 2 для PostgreSQL
-5. Выбрать пункт 6 для Jupyter
+Создаёт `.venv` и устанавливает зависимости.
+
+```shell
+python run_project.py setup
+```
+
+
+
+### 2. Скачать данные
+
+Собирает данные из ЕИС, Сбербанк-АСТ и проверяет остальные открытые ЭТП.
+
+```shell
+python run_project.py collect
+```
+
+### 3. Объединить и обезличить данные
+
+Связывает источники, обогащает реквизиты, маскирует персональные данные и
+проверяет результат обезличивания.
+
+```shell
+python run_project.py anonymize
+```
+
+### 4. Очистить данные и удалить дубли
+
+Формирует аналитические таблицы и статистику дублей.
+
+```shell
+python run_project.py clean
+```
+
+### 5. Создать и заполнить PostgreSQL
+
+Создаёт схему и таблицы, затем загружает очищенные данные. Потребуется пароль
+пользователя PostgreSQL.
+
+```shell
+python run_project.py database
+```
+
+### 6. Выполнить аналитический модуль
+
+Загружает внешние факторы, сравнивает годы, проверяет гипотезы и ищет аномалии.
+
+```shell
+python run_project.py analytics
+```
+
+### 7. Запустить локальную Qwen
+
+Обрабатывает следующие 25 задач. Результаты сохраняются после каждой задачи.
+
+```shell
+python run_project.py qwen
+```
+
+После завершения Qwen повторно запустить этап аналитики, чтобы обновить сводку.
+
+### 8. Построить графики и финальный отчёт
+
+Создаёт восемь графиков, HTML-отчёт и итоговый Jupyter Notebook.
+
+```shell
+python run_project.py report
+```
+
+### 9. Открыть Jupyter Notebook
+
+```shell
+python run_project.py notebook
+```
+
+Также можно открыть общее терминальное меню:
+
+```shell
+.\start_project.cmd
 ```
 
 ## Что необходимо установить
@@ -121,39 +188,23 @@ ollama list
 
 ## Порядок полного запуска
 
-### Первый вариант: готовые собранные данные
+Открыть `start_project.cmd` и последовательно выполнить кнопки:
 
-Это основной сценарий для проверки проекта:
-
-```powershell
-.\setup_environment.cmd
-python stages\stage2\scripts\process_stage2.py
-.\update_database.cmd
-python stages\stage3\scripts\analyze_stage3.py
-python stages\stage3\scripts\summarize_llm_results.py
-python stages\stage4\scripts\build_stage4.py
-.\open_notebook.cmd
+```text
+1 → окружение
+2 → сбор
+3 → связывание, обогащение и обезличивание
+4 → очистка и дедупликация
+5 → PostgreSQL
+6 → аналитика
+7 → Qwen
+8 → визуализация
+9 → Jupyter Notebook
 ```
 
-Эти действия доступны в `start_project.cmd`.
-
-### Второй вариант: пересбор данных из открытых источников
-
-Сетевой сбор занимает значительно больше времени:
-
-```powershell
-python stages\stage1\scripts\collect_eis.py
-python stages\stage1\scripts\collect_eis_queries.py --pages 10
-python stages\stage1\scripts\collect_sberbank_ast.py --query "Сбербанк"
-python stages\stage1\scripts\probe_sources.py
-python stages\stage1\scripts\build_stage1_dataset.py
-python stages\stage1\scripts\anonymize_exports.py
-python stages\stage1\scripts\audit_anonymization.py
-python stages\stage1\scripts\enrich_multisource.py
-python stages\stage2\scripts\process_stage2.py
-```
-
-Затем выполняются PostgreSQL, Этап 3 и Этап 4.
+Кнопка 7 необязательна для пересчёта статистики и графиков, но нужна для
+добавления результатов локального LLM-анализа. После её выполнения следует
+повторно нажать кнопки 6 и 8, чтобы обновить сводку и финальный отчёт.
 
 ## Структура проекта
 
@@ -350,15 +401,16 @@ python stages\stage4\scripts\build_stage4.py
 Пункты меню:
 
 ```text
-1 — подготовить данные Этапа 2
-2 — обновить PostgreSQL
-3 — пересчитать Этап 3
-4 — обработать 25 задач Qwen
-5 — собрать Этап 4
-6 — открыть Jupyter
-7 — выполнить Этапы 2, 3 и 4
-8 — проверить установленное ПО
-9 — установить или восстановить .venv
+1 — установить Python-окружение
+2 — скачать данные
+3 — объединить, обогатить и обезличить данные
+4 — очистить данные и удалить дубли
+5 — создать структуру и загрузить PostgreSQL
+6 — выполнить аналитику
+7 — обработать 25 задач Qwen
+8 — построить графики и Notebook
+9 — открыть Jupyter Notebook
+10 — проверить установленное ПО
 ```
 
 ## Как представить проект в Jupyter Notebook

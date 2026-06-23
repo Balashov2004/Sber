@@ -67,7 +67,7 @@
 ```powershell
 python stages\stage1\scripts\collect_eis.py
 python stages\stage1\scripts\collect_eis_queries.py --pages 10
-python stages\stage1\scripts\collect_sberbank_ast.py --query "Сбербанк"
+python stages\stage1\scripts\collect_sberbank_ast.py --all-orgs --term-mode inn --pages 5
 python stages\stage1\scripts\probe_sources.py
 python stages\stage1\scripts\build_stage1_dataset.py
 python stages\stage1\scripts\anonymize_exports.py
