@@ -1,0 +1,56 @@
+{
+  "primary": [
+    {
+      "name": "EIS",
+      "url": "https://zakupki.gov.ru",
+      "role": "canonical",
+      "why_selected": "Official publication point for Russian procurement under 44-FZ and 223-FZ; provides notices, lots, protocols, contracts, and document links.",
+      "collection_method": "Search by customer INN, date period, and law type; store raw HTML/XML when available."
+    }
+  ],
+  "enrichment": [
+    {
+      "name": "Sberbank-AST",
+      "url": "http://www.sberbank-ast.ru",
+      "role": "platform_enrichment",
+      "why_selected": "Likely key ETP for Sber-related and 223-FZ procedures; can enrich EIS records with platform-specific details."
+    },
+    {
+      "name": "Roseltorg",
+      "url": "https://www.roseltorg.ru",
+      "role": "platform_enrichment",
+      "why_selected": "Large federal electronic platform with 44-FZ, 223-FZ, commercial, and corporate procurement sections."
+    },
+    {
+      "name": "RTS-Tender",
+      "url": "http://www.rts-tender.ru",
+      "role": "platform_enrichment",
+      "why_selected": "Federal ETP; useful for cross-source matching and duplicate detection."
+    },
+    {
+      "name": "ETP GPB",
+      "url": "https://etpgpb.ru",
+      "role": "platform_enrichment",
+      "why_selected": "Major ETP for 223-FZ and corporate procurement."
+    },
+    {
+      "name": "ZakazRF",
+      "url": "http://etp.zakazrf.ru",
+      "role": "platform_enrichment",
+      "why_selected": "Federal and regional procurement platform; checked for records linked from EIS."
+    },
+    {
+      "name": "Lot-Online",
+      "url": "https://lot-online.ru",
+      "role": "platform_enrichment",
+      "why_selected": "Electronic platform for auctions and asset-related procedures; checked when EIS/platform links point there."
+    },
+    {
+      "name": "TEK-Torg",
+      "url": "http://www.tektorg.ru",
+      "role": "platform_enrichment",
+      "why_selected": "Major ETP, but may require manual or guarded access because anti-bot protection can block automated collection."
+    }
+  ]
+}
+

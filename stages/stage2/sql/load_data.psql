@@ -1,0 +1,32 @@
+\set ON_ERROR_STOP on
+
+\ir schema.sql
+
+TRUNCATE TABLE
+    sber_procurement.documents,
+    sber_procurement.duplicate_audit,
+    sber_procurement.purchase_candidates,
+    sber_procurement.purchase_sources,
+    sber_procurement.purchases,
+    sber_procurement.organizations
+RESTART IDENTITY CASCADE;
+
+\copy sber_procurement.organizations (inn, kpp, ogrn, legal_name, short_name, aliases, relation_to_sber, priority, verification_source, notes) FROM 'data/processed/stage2/organizations_clean.csv' WITH (FORMAT csv, HEADER true, ENCODING 'UTF8');
+
+\copy sber_procurement.purchases (canonical_purchase_id, purchase_number, title, customer_name, customer_inn, customer_kpp, customer_ogrn, relation_to_sber, publication_date, end_date, amount_rub, currency, status, procedure_type, law_or_section, platform_section, region, primary_source, source_count, source_systems, primary_url, sberbank_ast_url, eis_url, link_quality, year, month) FROM 'data/processed/stage2/purchases_clean.csv' WITH (FORMAT csv, HEADER true, ENCODING 'UTF8');
+
+\copy sber_procurement.purchase_sources (canonical_purchase_id, source_system, source_record_id, purchase_number, source_url, source_section, source_status, publication_date, amount_rub, match_quality) FROM 'data/processed/stage2/purchase_source_records.csv' WITH (FORMAT csv, HEADER true, ENCODING 'UTF8');
+
+\copy sber_procurement.purchase_candidates (source_system, source_record_id, purchase_number, title, customer_name, customer_inn, publication_date, amount_rub, source_url, match_quality) FROM 'data/processed/stage2/purchase_candidates_db.csv' WITH (FORMAT csv, HEADER true, ENCODING 'UTF8');
+
+\copy sber_procurement.duplicate_audit (canonical_purchase_id, duplicate_source, duplicate_record_id, kept_source, kept_record_id, duplicate_type, match_method, match_confidence, purchase_number, publication_date, amount_rub, source_url) FROM 'data/processed/stage2/purchase_duplicates_db.csv' WITH (FORMAT csv, HEADER true, ENCODING 'UTF8');
+
+\copy sber_procurement.documents (canonical_purchase_id, purchase_number, source_system, card_url, document_url, document_type, metadata_status, download_status, extraction_status, anonymization_status, processing_priority, processing_idea) FROM 'data/processed/stage2/purchase_documents_db.csv' WITH (FORMAT csv, HEADER true, ENCODING 'UTF8');
+
+SELECT 'organizations' AS table_name, count(*) AS rows_count FROM sber_procurement.organizations
+UNION ALL SELECT 'purchases', count(*) FROM sber_procurement.purchases
+UNION ALL SELECT 'purchase_sources', count(*) FROM sber_procurement.purchase_sources
+UNION ALL SELECT 'purchase_candidates', count(*) FROM sber_procurement.purchase_candidates
+UNION ALL SELECT 'duplicate_audit', count(*) FROM sber_procurement.duplicate_audit
+UNION ALL SELECT 'documents', count(*) FROM sber_procurement.documents
+ORDER BY table_name;

@@ -1,0 +1,49 @@
+{
+  "created_at": "2026-06-20T21:28:52",
+  "input_dir": "C:\\Users\\HP\\Desktop\\Сбер\\Sber\\data\\interim",
+  "output_dir": "C:\\Users\\HP\\Desktop\\Сбер\\Sber\\data\\processed\\anonymized",
+  "files": [
+    {
+      "input": "C:\\Users\\HP\\Desktop\\Сбер\\Sber\\data\\interim\\stage1_purchases_strict.csv",
+      "output": "C:\\Users\\HP\\Desktop\\Сбер\\Sber\\data\\processed\\anonymized\\stage1_purchases_strict.csv",
+      "rows": 1461,
+      "status": "ok"
+    },
+    {
+      "input": "C:\\Users\\HP\\Desktop\\Сбер\\Sber\\data\\interim\\stage1_purchases_candidates.csv",
+      "output": "C:\\Users\\HP\\Desktop\\Сбер\\Sber\\data\\processed\\anonymized\\stage1_purchases_candidates.csv",
+      "rows": 7767,
+      "status": "ok"
+    },
+    {
+      "input": "C:\\Users\\HP\\Desktop\\Сбер\\Sber\\data\\interim\\eis_broad_purchase_index.csv",
+      "output": "C:\\Users\\HP\\Desktop\\Сбер\\Sber\\data\\processed\\anonymized\\eis_broad_purchase_index.csv",
+      "rows": 6,
+      "status": "ok"
+    },
+    {
+      "input": "C:\\Users\\HP\\Desktop\\Сбер\\Sber\\data\\interim\\eis_broad_purchase_candidates.csv",
+      "output": "C:\\Users\\HP\\Desktop\\Сбер\\Sber\\data\\processed\\anonymized\\eis_broad_purchase_candidates.csv",
+      "rows": 192,
+      "status": "ok"
+    },
+    {
+      "input": "C:\\Users\\HP\\Desktop\\Сбер\\Sber\\data\\interim\\sberbank_ast_purchase_candidates.csv",
+      "output": "C:\\Users\\HP\\Desktop\\Сбер\\Sber\\data\\processed\\anonymized\\sberbank_ast_purchase_candidates.csv",
+      "rows": 7689,
+      "status": "ok"
+    },
+    {
+      "input": "C:\\Users\\HP\\Desktop\\Сбер\\Sber\\data\\interim\\sberbank_ast_purchase_index.csv",
+      "output": "C:\\Users\\HP\\Desktop\\Сбер\\Sber\\data\\processed\\anonymized\\sberbank_ast_purchase_index.csv",
+      "rows": 1458,
+      "status": "ok"
+    },
+    {
+      "input": "C:\\Users\\HP\\Desktop\\Сбер\\Sber\\data\\interim\\source_probe_links.csv",
+      "output": "C:\\Users\\HP\\Desktop\\Сбер\\Sber\\data\\processed\\anonymized\\source_probe_links.csv",
+      "rows": 318,
+      "status": "ok"
+    }
+  ]
+}

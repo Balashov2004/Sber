@@ -1,0 +1,15 @@
+{
+  "canonical_purchases": 1458,
+  "linked_source_pairs": 3,
+  "multi_source_purchases": 3,
+  "single_source_purchases": 1455,
+  "organization_enriched_rows": 1458,
+  "sources_used": [
+    "Sberbank-AST",
+    "EIS",
+    "FNS EGRUL"
+  ],
+  "link_methods": {
+    "exact_purchase_number": 3
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "result_rows": 38,
+  "unique_tasks": 38,
+  "valid_json_rows": 38,
+  "valid_json_pct": 100.0,
+  "coverage_of_llm_queue_pct": 8.41,
+  "model": [
+    [
+      "qwen3.5:9b",
+      38
+    ]
+  ],
+  "provider": [
+    [
+      "ollama",
+      38
+    ]
+  ],
+  "mean_category_confidence": 0.942,
+  "median_category_confidence": 0.95,
+  "single_supplier_signal_values": {
+    "None": 34,
+    "False": 4
+  },
+  "rule_categories": {
+    "other": 24,
+    "it_and_telecom": 9,
+    "logistics_and_facilities": 3,
+    "professional_services": 1,
+    "construction_and_repair": 1
+  },
+  "rule_anomaly_flags": {
+    "same_subject_price_jump": 4,
+    "cancelled_then_republished": 8,
+    "cancelled_procedure": 23
+  },
+  "responses_with_unsupported_inference_terms": 26,
+  "responses_with_unsupported_inference_terms_pct": 68.42,
+  "conclusion": {
+    "useful_for": [
+      "structuring a notice into fixed analytical fields",
+      "drafting observation, interpretation, significance and limitation",
+      "prioritizing cards for document-level review"
+    ],
+    "not_reliable_as_ground_truth_for": [
+      "single-supplier conclusions",
+      "supplier identity or winner",
+      "legal violations, corruption, collusion or spending efficiency",
+      "confirmation of a price anomaly without comparable scope and documents"
+    ],
+    "sampling_limitation": "Results are the first completed tasks from a priority queue, not a random sample of all procurements."
+  }
+}

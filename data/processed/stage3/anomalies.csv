@@ -1,0 +1,253 @@
+﻿anomaly_type,severity,purchase_number,category,metric,amount_rub,description
+extreme_amount,high,8012904,logistics_and_facilities,36534.74,65000000.0,Amount is an extreme robust-MAD outlier.
+extreme_amount,high,SBR028-2510140031.1,other,56207.66,99999999.0,Amount is an extreme robust-MAD outlier.
+extreme_amount,high,SBR028-2510100053.1,it_and_telecom,31771.88,56526412.96,Amount is an extreme robust-MAD outlier.
+extreme_amount,high,SBR028-2509160031.1,it_and_telecom,104560.91,186025058.33,Amount is an extreme robust-MAD outlier.
+extreme_amount,high,SBR028-2508210056.1,it_and_telecom,87177.05,155097500.0,Amount is an extreme robust-MAD outlier.
+extreme_amount,high,SBR028-2411020013.1,other,56769.74,101000000.0,Amount is an extreme robust-MAD outlier.
+extreme_amount,high,SBR028-2410010034.1,other,90207.85,160489600.0,Amount is an extreme robust-MAD outlier.
+extreme_amount,high,SBR028-2408190016.1,other,28103.49,49999999.0,Amount is an extreme robust-MAD outlier.
+extreme_amount,high,SBR028-2512080027.1,construction_and_repair,25429.33,45242415.1,Amount is an extreme robust-MAD outlier.
+extreme_amount,high,SBR028-2504250009.1,logistics_and_facilities,68788.55,122382600.0,Amount is an extreme robust-MAD outlier.
+extreme_amount,high,SBR028-2502050031.1,other,166432.2,296100000.0,Amount is an extreme robust-MAD outlier.
+extreme_amount,high,SBR028-2501210072.1,other,132269.61,235321484.96,Amount is an extreme robust-MAD outlier.
+cancelled_procedure,medium,33982455,other,,364560.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,75248139,other,,388500.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,81215614,other,,15500.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,73355679,other,,136586.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,126654667,it_and_telecom,,60000.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,86398313,other,,54642.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,95505294,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,37661500,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,86803403,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,101471954,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,25918790,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,101977184,professional_services,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,59304153,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,31786099,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,102938025,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,118042973,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,5706414,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,29473565,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,42851135,logistics_and_facilities,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,14581757,construction_and_repair,,490000.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,82989725,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,74992496,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,67532985,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,49612647,other,,102500.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,26486352,other,,499983.34,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,76236466,it_and_telecom,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,92414981,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,8012904,logistics_and_facilities,,65000000.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,66775586,other,,495000.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2508210058.1,it_and_telecom,,,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2507220052.1,other,,,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2506170064.1,other,,,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2504210041.1,construction_and_repair,,,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2504210034.1,it_and_telecom,,,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2504180043.1,logistics_and_facilities,,,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2504080043.1,other,,,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2503310004.1,other,,,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2503280025.1,other,,,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2503100016.1,other,,,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2503030067.1,it_and_telecom,,,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2411130025.1,other,,,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2410160023.1,professional_services,,,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2410010034.1,other,,160489600.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2410010032.1,it_and_telecom,,,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2408050060.1,other,,,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2407230014.1,other,,,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,19356284,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,96495614,other,,2250000.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,26167297,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,28135091,other,,90000.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,36572906,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,122021010,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,72234924,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,68082161,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,95848978,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,48597510,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,121569052,construction_and_repair,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,108305899,construction_and_repair,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,3953473,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,67304701,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,72821087,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,90334933,logistics_and_facilities,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,28907902,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,21297637,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,65851204,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,39426492,logistics_and_facilities,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,97495985,logistics_and_facilities,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,42756055,logistics_and_facilities,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,88393685,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,100315525,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,22932854,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,13519017,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,38073278,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,115829747,logistics_and_facilities,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,36133762,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,4516591,other,,2793.9,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,123499159,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,67763146,other,,1400.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,73106080,other,,356274.8,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,54648946,other,,5700.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,111079755,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,30886000,other,,4500.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,131170771,it_and_telecom,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,114302465,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,20538534,other,,990.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,108084986,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,34816235,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,96247781,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,58153483,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,127761862,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,131659779,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,129875235,it_and_telecom,,7500000.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,101660843,other,,228500.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,40767046,it_and_telecom,,251882.5,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,1200700144924000001,audit_and_assurance,,1199767.67,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR003-240017162400005.1,it_and_telecom,,,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2512260035.1,other,,2700000.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,61766983,it_and_telecom,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2512240153.1,it_and_telecom,,1100000.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,65763034,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2512170026.1,other,,,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2512170024.1,professional_services,,,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2512170023.1,other,,,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,51721840,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,40235310,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,71577521,logistics_and_facilities,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,91242591,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,29052102,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,110273569,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2512040038.1,other,,,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,89312452,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,89013296,logistics_and_facilities,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,63880356,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,123982117,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,14908003,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,4816981,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,124140714,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,34055912,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,68374670,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,132541912,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,106537266,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,69051443,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,66232438,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,96883284,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,19493926,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,37011233,construction_and_repair,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,34546518,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,52743492,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,78822099,construction_and_repair,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,129633152,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,78045695,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,105396425,construction_and_repair,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,13288735,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,27409530,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,70185760,construction_and_repair,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,111712046,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,108109639,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,93010036,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,101047426,construction_and_repair,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,36010991,construction_and_repair,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,115886327,construction_and_repair,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2509250012.1,other,,2761000.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2509250011.1,other,,2971000.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2509250009.1,other,,2631000.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,85864545,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,76042099,construction_and_repair,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,103850582,construction_and_repair,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,89822917,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,30935314,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,129079150,construction_and_repair,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,82097367,professional_services,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2509180047.1,it_and_telecom,,,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,115602042,professional_services,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,63861326,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,118811828,it_and_telecom,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,114417355,professional_services,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,32143088,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,103903124,it_and_telecom,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2508280013.1,other,,13944000.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2508130021.1,logistics_and_facilities,,10040550.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,85626200,construction_and_repair,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,12932838,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,105205796,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,110356403,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2505300037.1,other,,11373500.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,124813862,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,115475359,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,9493495,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,42406234,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2503130016.1,other,,1.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,121193162,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,112069909,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,89080559,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,126648473,construction_and_repair,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,16256900,logistics_and_facilities,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,17616195,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,104473376,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,105126837,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2412110032.1,construction_and_repair,,1339000.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2412040041.1,other,,6832000.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,128778578,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,5054771,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,96924822,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,57962991,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,761449,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,50895681,construction_and_repair,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,38065891,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2410090004.1,other,,11165642.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,6671502,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,61130769,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,133514005,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2409090015.1,it_and_telecom,,5004650.15,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,31525920,other,,0.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2408150023.1,it_and_telecom,,,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2407030006.1,construction_and_repair,,1.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2406030029.1,other,,1522848.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2405200051.1,construction_and_repair,,1285797.5,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2404030013.1,other,,1.0,Procedure status contains a cancellation signal.
+cancelled_procedure,medium,SBR028-2402210035.1,other,,7480000.0,Procedure status contains a cancellation signal.
+same_subject_price_jump,high,31312397 -> 53266154,other,5.24,497701.19,Similar subject for the same customer changed in price by at least two times.
+cancelled_then_republished,medium,33982455 -> 60223025,other,,340638.0,Similar procedure appears as cancelled and completed.
+cancelled_then_republished,medium,75248139 -> 127115094,other,,388500.0,Similar procedure appears as cancelled and completed.
+cancelled_then_republished,medium,93118603 -> 81215614,other,,15500.0,Similar procedure appears as cancelled and completed.
+cancelled_then_republished,medium,102395652 -> 126654667,it_and_telecom,,60000.0,Similar procedure appears as cancelled and completed.
+same_subject_price_jump,high,105075646 -> 124040848,logistics_and_facilities,2.2,99000.0,Similar subject for the same customer changed in price by at least two times.
+same_subject_price_jump,high,SBR028-2508270026.29 -> SBR028-2508270026.23,logistics_and_facilities,3.71,1535400.0,Similar subject for the same customer changed in price by at least two times.
+same_subject_price_jump,high,SBR028-2508270026.13 -> SBR028-2508270026.30,logistics_and_facilities,3.44,5699999.88,Similar subject for the same customer changed in price by at least two times.
+same_subject_price_jump,high,SBR028-2508270026.30 -> SBR028-2508270026.26,logistics_and_facilities,3.73,1530000.0,Similar subject for the same customer changed in price by at least two times.
+same_subject_price_jump,high,SBR028-2508270026.6 -> SBR028-2508270026.25,logistics_and_facilities,2.25,1530000.0,Similar subject for the same customer changed in price by at least two times.
+same_subject_price_jump,high,SBR028-2508270026.17 -> SBR028-2508270026.7,logistics_and_facilities,2.31,2616000.12,Similar subject for the same customer changed in price by at least two times.
+same_subject_price_jump,high,SBR028-2508270004.5 -> SBR028-2508270004.8,logistics_and_facilities,2.6,10464000.12,Similar subject for the same customer changed in price by at least two times.
+same_subject_price_jump,high,SBR028-2508270004.8 -> SBR028-2508270004.9,logistics_and_facilities,3.79,2763000.0,Similar subject for the same customer changed in price by at least two times.
+cancelled_then_republished,medium,SBR028-2410010034.1 -> SBR028-2411020013.1,other,,101000000.0,Similar procedure appears as cancelled and completed.
+same_subject_price_jump,high,54648946 -> 24472253,other,5.06,28851.37,Similar subject for the same customer changed in price by at least two times.
+cancelled_then_republished,medium,1200700144924000001 -> 1200700144924000002,audit_and_assurance,,1199767.67,Similar procedure appears as cancelled and completed.
+cancelled_then_republished,medium,SBR028-2512240153.1 -> SBR028-2512300012.1,it_and_telecom,,1100000.0,Similar procedure appears as cancelled and completed.
+same_subject_price_jump,high,SBR028-2403130045.1 -> SBR028-2512190045.1,other,61.83,153380.0,Similar subject for the same customer changed in price by at least two times.
+same_subject_price_jump,high,SBR028-2502040082.1 -> SBR028-2511130004.1,it_and_telecom,10.5,1816800.0,Similar subject for the same customer changed in price by at least two times.
+cancelled_then_republished,medium,SBR028-2409040028.1 -> SBR028-2508130021.1,logistics_and_facilities,,10040550.0,Similar procedure appears as cancelled and completed.
+same_subject_price_jump,high,SBR028-2411150024.1 -> SBR028-2506260046.1,professional_services,3.23,970000.0,Similar subject for the same customer changed in price by at least two times.
+same_subject_price_jump,high,SBR028-2411150025.1 -> SBR028-2506260045.1,professional_services,4.19,999180.32,Similar subject for the same customer changed in price by at least two times.
+same_subject_price_jump,high,SBR028-2411150032.1 -> SBR028-2506260044.1,professional_services,2.54,975269.2,Similar subject for the same customer changed in price by at least two times.
+same_subject_price_jump,high,SBR028-2411150028.1 -> SBR028-2506260043.1,professional_services,2.02,1616580.0,Similar subject for the same customer changed in price by at least two times.
+same_subject_price_jump,high,SBR028-2411150023.1 -> SBR028-2506260042.1,professional_services,2.7,2532600.0,Similar subject for the same customer changed in price by at least two times.
+same_subject_price_jump,high,SBR028-2411270050.1 -> SBR028-2506260040.1,professional_services,3.01,1058000.0,Similar subject for the same customer changed in price by at least two times.
+same_subject_price_jump,high,SBR028-2411150026.1 -> SBR028-2506260039.1,professional_services,2.93,1565550.0,Similar subject for the same customer changed in price by at least two times.
+cancelled_then_republished,medium,SBR028-2505300037.1 -> SBR028-2506240017.1,other,,11373500.0,Similar procedure appears as cancelled and completed.
+same_subject_price_jump,high,SBR028-2405020019.1 -> SBR028-2411020014.1,other,2.09,1324881.2,Similar subject for the same customer changed in price by at least two times.
+same_subject_price_jump,high,SBR028-2502110029.3 -> SBR028-2502110029.1,professional_services,3.0,300000.0,Similar subject for the same customer changed in price by at least two times.
+same_subject_price_jump,high,SBR028-2502110029.1 -> SBR028-2502110029.4,professional_services,2.86,105000.0,Similar subject for the same customer changed in price by at least two times.
+same_subject_price_jump,high,SBR028-2502110029.4 -> SBR028-2502110029.2,professional_services,23.43,2460000.0,Similar subject for the same customer changed in price by at least two times.
+cancelled_then_republished,medium,SBR028-2412040041.1 -> SBR028-2412110025.1,other,,6832000.0,Similar procedure appears as cancelled and completed.
+same_subject_price_jump,high,SBR028-2403150031.1 -> SBR028-2408010009.1,it_and_telecom,2.13,5810000.0,Similar subject for the same customer changed in price by at least two times.
+cancelled_then_republished,medium,SBR028-2410090004.1 -> SBR028-2410240028.1,other,,11165642.0,Similar procedure appears as cancelled and completed.
+cancelled_then_republished,medium,SBR028-2408270033.1 -> SBR028-2409090015.1,it_and_telecom,,5004650.15,Similar procedure appears as cancelled and completed.
+cancelled_then_republished,medium,SBR028-2409090015.1 -> SBR028-2409250021.1,it_and_telecom,,5004650.15,Similar procedure appears as cancelled and completed.
+cancelled_then_republished,medium,SBR028-2402210035.1 -> SBR028-2403070011.1,other,,7480000.0,Similar procedure appears as cancelled and completed.
+cancelled_then_republished,medium,SBR028-2406030029.1 -> SBR028-2406070037.1,other,,2500000.0,Similar procedure appears as cancelled and completed.
+same_subject_price_jump,high,SBR028-2401250033.1 -> SBR028-2401250033.2,other,7.83,1272380.0,Similar subject for the same customer changed in price by at least two times.
+same_subject_price_jump,high,SBR028-2402150030.2 -> SBR028-2402150030.1,other,7.83,9959548.0,Similar subject for the same customer changed in price by at least two times.

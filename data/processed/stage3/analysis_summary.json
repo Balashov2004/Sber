@@ -1,0 +1,146 @@
+{
+  "selected_direction": "it_and_telecom",
+  "selection_reason": {
+    "purchase_count": 210,
+    "amount_rub": 906824739.4,
+    "share_of_all_purchases_pct": 14.4,
+    "rationale": "The direction is large, economically material and plausibly exposed to imported hardware, software licences and USD/RUB."
+  },
+  "annual_comparison": [
+    {
+      "year": 2024,
+      "purchase_count": 325,
+      "amount_present": 237,
+      "amount_coverage_pct": 72.92,
+      "total_amount_rub": 1363918337.45,
+      "median_amount_rub": 1500000.0
+    },
+    {
+      "year": 2025,
+      "purchase_count": 1133,
+      "amount_present": 943,
+      "amount_coverage_pct": 83.23,
+      "total_amount_rub": 2912638386.02,
+      "median_amount_rub": 14.8
+    }
+  ],
+  "category_comparison": [
+    {
+      "category": "other",
+      "count_2024": 199,
+      "count_2025": 723,
+      "count_change_pct": 263.32,
+      "amount_2024_rub": 854215134.5,
+      "amount_2025_rub": 1523717468.2,
+      "amount_change_pct": 78.38
+    },
+    {
+      "category": "it_and_telecom",
+      "count_2024": 61,
+      "count_2025": 149,
+      "count_change_pct": 144.26,
+      "amount_2024_rub": 199353739.18,
+      "amount_2025_rub": 707471000.22,
+      "amount_change_pct": 254.88
+    },
+    {
+      "category": "logistics_and_facilities",
+      "count_2024": 13,
+      "count_2025": 119,
+      "count_change_pct": 815.38,
+      "amount_2024_rub": 17559800.0,
+      "amount_2025_rub": 377351120.96,
+      "amount_change_pct": 2048.95
+    },
+    {
+      "category": "construction_and_repair",
+      "count_2024": 32,
+      "count_2025": 84,
+      "count_change_pct": 162.5,
+      "amount_2024_rub": 244554989.85,
+      "amount_2025_rub": 231743051.45,
+      "amount_change_pct": -5.24
+    },
+    {
+      "category": "professional_services",
+      "count_2024": 16,
+      "count_2025": 49,
+      "count_change_pct": 206.25,
+      "amount_2024_rub": 45835137.58,
+      "amount_2025_rub": 47156634.19,
+      "amount_change_pct": 2.88
+    },
+    {
+      "category": "audit_and_assurance",
+      "count_2024": 4,
+      "count_2025": 6,
+      "count_change_pct": 50.0,
+      "amount_2024_rub": 2399536.34,
+      "amount_2025_rub": 24591095.0,
+      "amount_change_pct": 924.83
+    },
+    {
+      "category": "insurance",
+      "count_2024": 0,
+      "count_2025": 3,
+      "count_change_pct": "",
+      "amount_2024_rub": 0,
+      "amount_2025_rub": 608016.0,
+      "amount_change_pct": ""
+    }
+  ],
+  "hypotheses": [
+    {
+      "hypothesis": "IT procurement amount vs USD/RUB",
+      "metric": "it_amount_rub",
+      "factor": "usd_rub_avg",
+      "observations": 24,
+      "transformation": "log1p",
+      "pearson_r": -0.1039,
+      "p_value": 0.6501,
+      "decision": "not_statistically_significant",
+      "limitation": "Monthly observational association does not establish causality; category classification is keyword-based."
+    },
+    {
+      "hypothesis": "IT procurement count vs USD/RUB",
+      "metric": "it_count",
+      "factor": "usd_rub_avg",
+      "observations": 24,
+      "transformation": "none",
+      "pearson_r": -0.4957,
+      "p_value": 0.0135,
+      "decision": "statistically_significant_association",
+      "limitation": "Monthly observational association does not establish causality; category classification is keyword-based."
+    },
+    {
+      "hypothesis": "Construction procurement amount vs key rate",
+      "metric": "construction_amount_rub",
+      "factor": "key_rate_avg",
+      "observations": 24,
+      "transformation": "log1p",
+      "pearson_r": 0.0134,
+      "p_value": 0.951,
+      "decision": "not_statistically_significant",
+      "limitation": "Monthly observational association does not establish causality; category classification is keyword-based."
+    },
+    {
+      "hypothesis": "Construction procurement count vs key rate",
+      "metric": "construction_count",
+      "factor": "key_rate_avg",
+      "observations": 24,
+      "transformation": "none",
+      "pearson_r": 0.0239,
+      "p_value": 0.9116,
+      "decision": "not_statistically_significant",
+      "limitation": "Monthly observational association does not establish causality; category classification is keyword-based."
+    }
+  ],
+  "anomaly_counts": {
+    "extreme_amount": 12,
+    "cancelled_procedure": 199,
+    "same_subject_price_jump": 26,
+    "cancelled_then_republished": 15
+  },
+  "supplier_analysis_status": "blocked_until_participant_and_winner_protocols_are_extracted",
+  "llm_role": "classification validation, unstructured notice review, anomaly explanation and four-part conclusion drafting"
+}

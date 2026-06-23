@@ -1,0 +1,12 @@
+source,url,kind
+EIS,https://zakupki.gov.ru,home
+ZakazRF,http://etp.zakazrf.ru,home
+Roseltorg,https://www.roseltorg.ru,home
+LotOnline,https://lot-online.ru,home
+TEKTorg,https://www.tektorg.ru,home
+RTS-tender,https://www.rts-tender.ru,home
+RTS-tender-http,http://www.rts-tender.ru,home_http
+Sberbank-AST,https://www.sberbank-ast.ru,home
+Sberbank-AST-UTP,https://utp.sberbank-ast.ru/SB/,sber_section
+ETP-GPB,https://etpgpb.ru,home
+ETP-GPB-http,http://etpgpb.ru,home_http

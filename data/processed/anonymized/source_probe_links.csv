@@ -1,0 +1,319 @@
+﻿source,text,url
+EIS,Личный кабинет 44-Ф3,https://zakupki.gov.ru/epz/main/public/chooseAuth44.html
+EIS,Личный кабинет 223-ФЗ,https://zakupki.gov.ru/epz/main/public/chooseAuth223.html
+EIS,Личный кабинет участника закупок,https://zakupki.gov.ru/auth/welcome
+EIS,Закупки,http://zakupki.gov.ru/epz/order/extendedsearch/results.html
+EIS,Реестр контрактов 44-ФЗ,http://zakupki.gov.ru/epz/contract/search/results.html
+EIS,Реестр договоров 223-ФЗ,http://zakupki.gov.ru/epz/contractfz223/search/results.html
+EIS,Реестр договоров о проведении капитального ремонта ПП РФ-615,https://zakupki.gov.ru/epz/capitalrepairs/search/results.html
+EIS,Дополнительная информация о контрактах 44-ФЗ,https://zakupki.gov.ru/epz/dizk/search/results.html
+EIS,"Библиотека типовых контрактов, типовых условий контрактов 44-ФЗ",http://zakupki.gov.ru/epz/btk/search/results.html
+EIS,Планы-графики закупок 44-ФЗ,https://zakupki.gov.ru/epz/orderplan/search/results.html?morphology=on&search-filter=%D0%94%D0%B0%D1%82%D0%B5+%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D1%8F&structured=true&fz44=on&customerPlaceWithNested=on&actualPeriodRangeYearFrom=2020&sortBy=BY_MODIFY_DATE&pageNumber=1&sortDirection=false&recordsPerPage=_10&searchType=false
+EIS,Планы закупки 223-ФЗ,http://zakupki.gov.ru/epz/orderplan/search/results.html?morphology=on&structured=true&searchType=false&fz223=on®ion_regions_5277335=region_regions_5277335®ionDeleted=false&sortBy=BY_MODIFY_DATE&pageNumber=1&sortDirection=false&recordsPerPage=_10
+EIS,Обязательное общественное обсуждение закупок 44-ФЗ,https://zakupki.gov.ru/epz/oboz/search/results.html
+EIS,"Запросы цен товаров, работ, услуг 44-ФЗ",http://zakupki.gov.ru/epz/pricereq/search/results.html
+EIS,Правила нормирования в сфере закупок 44-ФЗ,http://zakupki.gov.ru/epz/normalizationrules/search/results.html
+EIS,Положения о закупке 223-ФЗ,https://zakupki.gov.ru/epz/orderclause/search/results.html
+EIS,Типовые положения о закупке 223-ФЗ,https://zakupki.gov.ru/epz/typalclause/search/results.html
+EIS,Законодательство в сфере закупок,http://zakupki.gov.ru/epz/main/public/document/view.html?sectionId=1255
+EIS,Нормативные правовые акты 44-ФЗ,http://zakupki.gov.ru/epz/main/public/document/view.html?sectionId=907
+EIS,Нормативные правовые акты 223-ФЗ,http://zakupki.gov.ru/epz/main/public/document/view.html?sectionId=908
+EIS,"Нормативно-методическая информация, предусмотренная для размещения в ЕИС",https://zakupki.gov.ru/epz/legalacts/search/results.html
+EIS,Информация о привлечении участника закупки к административной ответственности по ст. 19.28 КоАП,https://zakupki.gov.ru/epz/main/public/document/view.html?searchString=§ionId=2369&strictEqual=false
+EIS,Новости,http://zakupki.gov.ru/epz/main/public/news/news-search.html
+EIS,НПА в сфере закупок,https://zakupki.gov.ru/epz/main/public/news/news-search.html?categoryId=3
+EIS,НПА в сфере закупок,https://zakupki.gov.ru/epz/main/public/news/news-search.html?categoryId=3
+EIS,Все новости,https://zakupki.gov.ru/epz/main/public/news/news-search.html
+EIS,Обновление ЕИС,https://zakupki.gov.ru/epz/main/public/news/news-search.html?categoryId=1
+EIS,НПА в сфере закупок,https://zakupki.gov.ru/epz/main/public/news/news-search.html?categoryId=3
+EIS,Общие,https://zakupki.gov.ru/epz/main/public/news/news-search.html?categoryId=4
+EIS,,https://zakupki.gov.ru/epz/main/public/download/downloadDocument.html?id=33257
+EIS,,https://zakupki.gov.ru/epz/main/public/download/downloadDocument.html?id=35694
+EIS,Информация для участников закупок,https://zakupki.gov.ru/epz/main/public/document/view.html?searchString=§ionId=1771&strictEqual=false
+EIS,Законодательство в сфере закупок,http://zakupki.gov.ru/epz/main/public/document/view.html?sectionId=1255
+EIS,Открытые данные,https://zakupki.gov.ru/epz/opendata/search/results.html
+EIS,Перечень банков для открытия специальных счетов,http://zakupki.gov.ru/epz/main/public/document/view.html?searchString=§ionId=1106
+EIS,"Закупки у МСП, СОНО",https://zakupki.gov.ru/epz/order/extendedsearch/results.html?&fz44=on&fz223=on&af=on&ca=on&pc=on&pa=on&procurementSMPAndSONO=on
+EIS,Обязательное общественное обсуждение закупок,https://zakupki.gov.ru/epz/oboz/search/results.html
+EIS,Перейти к опросу,https://zakupki.gov.ru/epz/main/public/quiz/list.html
+EIS,Новости,https://zakupki.gov.ru/epz/main/public/news/news-search.html
+EIS,Опросы,https://zakupki.gov.ru/epz/main/public/quiz/list.html
+ZakazRF,,http://223etp.zakazrf.ru/
+ZakazRF,Zakaz RF - Общероссийская система электронной торговли,http://etp.zakazrf.ru/
+ZakazRF,Главная,http://44.zakazrf.ru/
+ZakazRF,Поиск торгов,http://etp.zakazrf.ru/NotificationEx
+ZakazRF,Торги по 44-ФЗ,http://etp.zakazrf.ru/Html/id/219
+ZakazRF,Торги по 223ФЗ,http://223etp.zakazrf.ru/
+ZakazRF,Активные торги,http://etp.zakazrf.ru/ReductionTrade
+ZakazRF,Региональный портал закупок малого объёма,http://rbp.zakazrf.ru/
+ZakazRF,Вконтакте,https://vk.com/44fzzakazrf
+ZakazRF,Суды вновь подтвердили: серия малых закупок у одного подрядчика может быть признана искусственным дроблением.,http://etp.zakazrf.ru/Html/id/62666
+ZakazRF,ТОРГИ,http://etp.zakazrf.ru/NotificationEx
+Roseltorg,Организатор торгов Получает предложения в качестве или в интересах Заказчика и(или) Продавца,https://www.roseltorg.ru
+Roseltorg,Участник торгов Подаёт предложения в качестве Поставщика и(или) Покупателя,https://www.roseltorg.ru
+Roseltorg,Регистрация для участия в имущественных торгах,https://etp.roseltorg.ru/authentication/register
+Roseltorg,Регистрация покупателя имущества на Росэлторг Бизнес,https://business.roseltorg.ru/lk
+Roseltorg,"Регистрация в ЕИС поставщиков по 44-ФЗ , 223-ФЗ «для субъектов МСП», 615 ПП РФ",https://www.roseltorg.ru/knowledge_db/registration/article/eis
+Roseltorg,"Единая регистрация для участия в корпоративных закупках и закупках субъектов 223-ФЗ , аккредитация иностранных поставщиков (в том числе для регистрации в ЕРУЗ).",https://etp.roseltorg.ru/authentication/register
+Roseltorg,Поставщик площадки «Росэлторг.Бизнес»,https://business.roseltorg.ru/
+Roseltorg,Коммерческие закупки и закупки субъектов 223-ФЗ,https://com.roseltorg.ru/#front/register
+Roseltorg,Имущественные торги (178-ФЗ),https://178fz.roseltorg.ru/#front/register
+Roseltorg,Росэлторг.Бизнес,https://business.roseltorg.ru/
+Roseltorg,Корпоративные закупки и закупки субъектов 223-ФЗ (включая МСП),https://lk.roseltorg.ru/registration
+Roseltorg,Перенести учетную запись в Росэлторг.ID Если у Вас уже есть учетная запись в старой версии секции ГК «Ростех». После переноса данных Вы сможете войти в Росэлторг.ID и новую версию секции ГК «Ростех».,https://rostec.roseltorg.ru/#auth/transfer
+Roseltorg,Войти через Росэлторг.ID Если Вы уже перенесли свою учетную запись или хотите аккредитоваться в секции впервые. Подать заявку на аккредитацию и отслеживать ее статус можно в Росэлторг.ID.,https://lk.roseltorg.ru/
+Roseltorg,Закупки,https://www.roseltorg.ru/torgi
+Roseltorg,Закупки,https://www.roseltorg.ru/torgi
+Roseltorg,44-ФЗ,https://www.roseltorg.ru/search/44fz
+Roseltorg,223-ФЗ,https://www.roseltorg.ru/search/com
+Roseltorg,Коммерческие закупки,https://rb.roseltorg.ru/?utm_source=roseltorg-ru&utm_medium=referral&utm_campaign=str-comm-prosedyre
+Roseltorg,615-ПП РФ. Закупки по капитальному ремонту,https://www.roseltorg.ru/search/fkr
+Roseltorg,Нестационарные торговые объекты,https://www.roseltorg.ru/imuschestvo/prochee/nestacionarnye-obekty
+Roseltorg,Представление на торгах,https://www.roseltorg.ru/realty-support
+Roseltorg,Сопровождение на торгах,https://www.roseltorg.ru/accompaniment
+Roseltorg,Аналитика рынка закупок,https://www.roseltorg.ru/analitika
+Roseltorg,Сервис управления закупками,https://www.roseltorg.ru/tenderplan
+Roseltorg,Стать покупателем,https://www.roseltorg.ru/search/sale
+Roseltorg,Представление на торгах,https://www.roseltorg.ru/realty-support
+Roseltorg,Сопровождение на торгах,https://www.roseltorg.ru/accompaniment
+Roseltorg,Аналитика рынка закупок,https://www.roseltorg.ru/analitika
+Roseltorg,Сервис управления закупками,https://www.roseltorg.ru/tenderplan
+Roseltorg,Торговая секция ГОС 1.0: etp.roseltorg.ru,https://etp.roseltorg.ru/
+Roseltorg,Торговая секция МСП: msp.roseltorg.ru,https://msp.roseltorg.ru/
+Roseltorg,44-ФЗ. Государственные закупки,https://www.roseltorg.ru
+Roseltorg,223-ФЗ. Закупки госкомпаний и госкорпораций,https://www.roseltorg.ru
+Roseltorg,615-ПП РФ. Закупки по капитальному ремонту,https://www.roseltorg.ru
+Roseltorg,"Независимые (банковские) гарантии Обеспечение контракта и гарантийных обязательств по 44-ФЗ, 223-ФЗ, 615-ПП и коммерческим закупкам 1.5% Минимальная комиссия 300 млн ₽ Максимальная сумма гарантии",https://www.roseltorg.ru/bg
+Roseltorg,Имущество Покупка/аренда недвижимости и другого имущества на торгах 60 Категорий имущества Бесплатно Участие в процедурах,https://www.roseltorg.ru/search/sale
+Roseltorg,Росэлторг. Бизнес Цифровая торговая платформа для закупок частного бизнеса 5000 Категорий товаров От 0 ₽ Согласно тарифам,https://www.roseltorg.ru/business
+Roseltorg,Поставщикам Ежедневно проходит более 20 000 государственных и коммерческих торгов,https://www.roseltorg.ru/for-suppliers
+Roseltorg,Заказчикам Полный цикл управления закупочной деятельностью,https://www.roseltorg.ru/for-customers
+Roseltorg,Объем торгов свыше 1 765 419 млн ₽,https://www.roseltorg.ru/personal/atom
+Roseltorg,Объем торгов свыше 2 317 274 млн ₽,https://www.roseltorg.ru/personal/rt
+Roseltorg,Объем торгов свыше 136 224 млн ₽,https://www.roseltorg.ru/personal/rosgeo
+Roseltorg,Объем торгов свыше 2 405 924 млн ₽,https://www.roseltorg.ru/personal/rushydro
+Roseltorg,Объем торгов свыше 1 999 107 млн ₽,https://www.roseltorg.ru/personal/rosseti
+Roseltorg,Объем торгов свыше 906 млн ₽,https://www.roseltorg.ru/personal/demetra
+Roseltorg,Объем торгов свыше 494 635 млн ₽,https://www.roseltorg.ru/personal/vtb
+Roseltorg,Объем торгов свыше 138 213 млн ₽,https://www.roseltorg.ru/personal/t_plus
+Roseltorg,Объем торгов свыше 9 млн ₽,https://www.roseltorg.ru/personal/magnezit
+Roseltorg,Объем торгов свыше 90 млн ₽,https://www.roseltorg.ru/personal/may
+Roseltorg,Объем торгов свыше 148 314 млн ₽,https://www.roseltorg.ru/personal/sgk
+Roseltorg,Объем торгов свыше 182 773 млн ₽,https://www.roseltorg.ru/personal/metro_SPb
+Roseltorg,Объем торгов свыше 473 млн ₽,https://www.roseltorg.ru/personal/cemros
+Roseltorg,Объем торгов свыше 17 542 млн ₽,https://www.roseltorg.ru/personal/element
+Roseltorg,Закупки,https://www.roseltorg.ru/torgi
+Roseltorg,44-ФЗ,https://www.roseltorg.ru/search/44fz
+Roseltorg,223-ФЗ,https://www.roseltorg.ru/search/com
+Roseltorg,Коммерческие закупки,https://rb.roseltorg.ru/?utm_source=roseltorg-ru&utm_medium=referral&utm_campaign=str-comm-prosedyre
+Roseltorg,615-ПП РФ. Закупки по капитальному ремонту,https://www.roseltorg.ru/search/fkr
+Roseltorg,Нестационарные торговые объекты,https://www.roseltorg.ru/imuschestvo/prochee/nestacionarnye-obekty
+Roseltorg,Представление на торгах,https://www.roseltorg.ru/realty-support
+Roseltorg,Сопровождение на торгах,https://www.roseltorg.ru/accompaniment
+Roseltorg,Аналитика рынка закупок,https://www.roseltorg.ru/analitika
+Roseltorg,Сервис управления закупками,https://www.roseltorg.ru/tenderplan
+Roseltorg,Стать покупателем,https://www.roseltorg.ru/search/sale
+Roseltorg,Торговая секция ГОС 1.0: etp.roseltorg.ru,https://etp.roseltorg.ru/
+Roseltorg,Торговая секция МСП: msp.roseltorg.ru,https://msp.roseltorg.ru/
+Roseltorg,,https://apps.apple.com/ru/app/росэлторг/id[PHONE]
+Roseltorg,,https://apps.apple.com/ru/app/росэлторг/id[PHONE]
+LotOnline,ЭТП РАД Оператор торгов в сегменте имущества,https://catalog.lot-online.ru/
+LotOnline,Электронные закупки Площадка электронных закупок,https://gz.lot-online.ru/
+LotOnline,Учебный центр РАД Практико-ориентированное обучение по 44-ФЗ и 223-ФЗ Учебном центре АО «РАД»,https://edu.lot-online.ru/
+LotOnline,Закупки,https://gz.lot-online.ru
+LotOnline,"Торговые здания, ТРЦ (4)",https://catalog.lot-online.ru/index.php?dispatch=categories.view&category_id=19&utm_source=fromMain
+LotOnline,[FIO] (0),https://catalog.lot-online.ru/index.php?dispatch=categories.view&category_id=161&utm_source=fromMain
+LotOnline,Легковые автомобили (922),https://catalog.lot-online.ru/index.php?dispatch=categories.view&category_id=44&utm_source=fromMain
+LotOnline,Торговые знаки (2),https://catalog.lot-online.ru/index.php?dispatch=categories.view&category_id=80&utm_source=fromMain
+LotOnline,Европейская (2),https://catalog.lot-online.ru/index.php?dispatch=categories.view&category_id=144&utm_source=fromMain
+LotOnline,Как купить на торгах,https://catalog.lot-online.ru/index.php?dispatch=cp_faq_addon.faq_menu&faq_id=3&faq_section_question=10&page=1
+LotOnline,Услуга организатор торгов,https://auction-house.ru/sell-realestate/
+LotOnline,44-ФЗ,https://gz.lot-online.ru/
+LotOnline,223-ФЗ,https://tender.lot-online.ru/
+LotOnline,44-ФЗ,https://gz.lot-online.ru/etp_front/procedure/list?page=1&limit=10&sort=1&sortDirection=ASC&personal=true&status=accept
+LotOnline,223-ФЗ,https://tender.lot-online.ru/search
+LotOnline,615-ПП РФ,https://gz.lot-online.ru/etp_front/procedure/list?direction=615pprf&page=1&status=accept&status=commission&status=contract&limit=10&sort=1&sortDirection=ASC
+LotOnline,Написать в техподдержку Закупки,https://gz.lot-online.ru/etp_front/support-request/add
+TEKTorg,Торговые секции,https://www.tektorg.ru/trade-sections
+TEKTorg,Закупки ПАО «НК «Роснефть»,https://www.tektorg.ru/rosneft
+TEKTorg,Закупочные процедуры,https://www.tektorg.ru/rosneft/procedures
+TEKTorg,Государственные закупки,https://www.tektorg.ru/44-fz
+TEKTorg,Начать работу на секции,https://44.tektorg.ru/authentication/login
+TEKTorg,Преимущества для заказчиков,https://www.tektorg.ru/44-fz/pz
+TEKTorg,Закупочные процедуры,https://www.tektorg.ru/44-fz/procedures
+TEKTorg,Тарифы,https://www.tektorg.ru/44-fz/tariff
+TEKTorg,Документы,https://www.tektorg.ru/44-fz/documents
+TEKTorg,Заказчикам,https://www.tektorg.ru/44-fz/customers/help
+TEKTorg,Поставщикам,https://www.tektorg.ru/44-fz/suppliers/help
+TEKTorg,Услуги и сервисы,https://www.tektorg.ru/44-fz/service
+TEKTorg,Закупки ПАО «Интер РАО»,https://www.tektorg.ru/inter_rao
+TEKTorg,Закупочные процедуры,https://www.tektorg.ru/inter_rao/procedures
+TEKTorg,223-ФЗ и Коммерческие закупки,https://www.tektorg.ru/223-fz
+TEKTorg,Закупочные процедуры,https://www.tektorg.ru/223-fz/procedures
+TEKTorg,Документы,https://www.tektorg.ru/223-fz/documents
+TEKTorg,Тарифы,https://www.tektorg.ru/223-fz/tariff
+TEKTorg,Заказчикам,https://www.tektorg.ru/223-fz/help-customers
+TEKTorg,Поставщикам,https://www.tektorg.ru/223-fz/help-suppliers
+TEKTorg,Заказчикам 223-ФЗ,https://www.tektorg.ru/223-fz/service-customers-223-fz
+TEKTorg,Коммерческим заказчикам,https://www.tektorg.ru/223-fz/service-customers
+TEKTorg,Поставщикам,https://www.tektorg.ru/223-fz/suppliers
+TEKTorg,Закупочные процедуры,https://www.tektorg.ru/market/procedures
+TEKTorg,Закупки крупнейших площадок,https://www.tektorg.ru/procedures/bi-procedures
+TEKTorg,Подписаться на закупки,https://www.tektorg.ru/procedures/subscription
+TEKTorg,"Научим работать на площадке! на вебинаре ""Первые шаги в закупках"" 22.06.2026",https://edu.tektorg.ru/webinar_ps
+TEKTorg,Семинар для заказчиков 223-ФЗ | 15-17 июля | Москва,https://edu.tektorg.ru/seminar-zakupki-2026-msk?utm_source=tektorg&utm_medium=site&utm_campaign=tektorg_site_Stories
+TEKTorg,Нерезидентам Участие иностранных компаний в закупках российских заказчиков,https://www.tektorg.ru/clients/nonresident?utm_source=tektorg&utm_medium=site&utm_campaign=tektorg_site_NonresidentStories
+TEKTorg,Аутсорсинг закупок Передайте ваши закупки экспертам ТЭК-Торг,https://www.tektorg.ru/services/procurement-outsourcing?utm_source=tektorg&utm_medium=site&utm_campaign=tektorg_site_ OutsourcingStories
+TEKTorg,Тарифы Тарифы торговых секций для участников процедур,https://www.tektorg.ru/clients/tariff
+TEKTorg,"НСИ Превращаем НСИ в основу эффективных закупок, управляемых запасов и цифровизации бизнеса",https://www.tektorg.ru/services/normalization?utm_source=tektorg&utm_medium=site&utm_campaign=tektorg_site_stories
+TEKTorg,Первые шаги в электронных закупках Научим работать на площадке!,https://edu.tektorg.ru/webinar_ps
+TEKTorg,Минпромторг Включение продукции в реестр Минпромторга,https://www.tektorg.ru/services/minpromtorg?utm_source=tektorg&utm_medium=site&utm_campaign=tektorg_site_stories
+TEKTorg,Подбор закупок Новая услуга ТЭК-Торг для поставщиков любой ЭТП,https://www.tektorg.ru/services/podbor-zakupok?utm_source=tektorg&utm_medium=site&utm_campaign=tektorg_site_Stories
+TEKTorg,Интернет-магазин Зарабатывайте на закупках легко,https://www.tektorg.ru/market
+TEKTorg,"Научим работать на площадке! на вебинаре ""Первые шаги в закупках"" 22.06.2026",https://edu.tektorg.ru/webinar_ps
+TEKTorg,Семинар для заказчиков 223-ФЗ | 15-17 июля | Москва,https://edu.tektorg.ru/seminar-zakupki-2026-msk?utm_source=tektorg&utm_medium=site&utm_campaign=tektorg_site_Stories
+TEKTorg,Нерезидентам Участие иностранных компаний в закупках российских заказчиков,https://www.tektorg.ru/clients/nonresident?utm_source=tektorg&utm_medium=site&utm_campaign=tektorg_site_NonresidentStories
+TEKTorg,Аутсорсинг закупок Передайте ваши закупки экспертам ТЭК-Торг,https://www.tektorg.ru/services/procurement-outsourcing?utm_source=tektorg&utm_medium=site&utm_campaign=tektorg_site_ OutsourcingStories
+TEKTorg,Тарифы Тарифы торговых секций для участников процедур,https://www.tektorg.ru/clients/tariff
+TEKTorg,"НСИ Превращаем НСИ в основу эффективных закупок, управляемых запасов и цифровизации бизнеса",https://www.tektorg.ru/services/normalization?utm_source=tektorg&utm_medium=site&utm_campaign=tektorg_site_stories
+TEKTorg,Первые шаги в электронных закупках Научим работать на площадке!,https://edu.tektorg.ru/webinar_ps
+TEKTorg,Минпромторг Включение продукции в реестр Минпромторга,https://www.tektorg.ru/services/minpromtorg?utm_source=tektorg&utm_medium=site&utm_campaign=tektorg_site_stories
+TEKTorg,Подбор закупок Новая услуга ТЭК-Торг для поставщиков любой ЭТП,https://www.tektorg.ru/services/podbor-zakupok?utm_source=tektorg&utm_medium=site&utm_campaign=tektorg_site_Stories
+TEKTorg,Интернет-магазин Зарабатывайте на закупках легко,https://www.tektorg.ru/market
+TEKTorg,"Научим работать на площадке! на вебинаре ""Первые шаги в закупках"" 22.06.2026",https://edu.tektorg.ru/webinar_ps
+TEKTorg,Семинар для заказчиков 223-ФЗ | 15-17 июля | Москва,https://edu.tektorg.ru/seminar-zakupki-2026-msk?utm_source=tektorg&utm_medium=site&utm_campaign=tektorg_site_Stories
+TEKTorg,Нерезидентам Участие иностранных компаний в закупках российских заказчиков,https://www.tektorg.ru/clients/nonresident?utm_source=tektorg&utm_medium=site&utm_campaign=tektorg_site_NonresidentStories
+TEKTorg,Включение продукции в реестр Минпромторг,https://www.tektorg.ru/services/minpromtorg
+TEKTorg,Ускоренный доступ к торгам,https://www.tektorg.ru/services/134
+TEKTorg,Ускоренный доступ к торгам,https://www.tektorg.ru/services/134
+TEKTorg,Участие иностранных компаний в закупках российских заказчиков,https://www.tektorg.ru/clients/nonresident
+TEKTorg,АО «Оборонэнерго» Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/oboronenergo
+TEKTorg,ОАО «РЖД» Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/rzd
+TEKTorg,СПб ГКУ «Управление заказчика» Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/upravlenie_zakazchika
+TEKTorg,[FIO] (Группа ППК) Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/portone
+TEKTorg,ГУП «Петербургский метрополитен» Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/metro_spb
+TEKTorg,АО «Спецнефтетранс» Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/sntrans
+TEKTorg,АО «Силовые машины» Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/silovyi_machine
+TEKTorg,ФГУП «Росморпорт» Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/rosmorport
+TEKTorg,ТЭК Мосэнерго Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/mosenergo
+TEKTorg,En+ Group Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/enplusgroup
+TEKTorg,РТУ МИРЭА Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/mirea
+TEKTorg,ПАО «ГМК «Норильский никель» Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/nornikel
+TEKTorg,ПАО «Юнипро» Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/unipro
+TEKTorg,АО «Зарубежнефть» Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/znft
+TEKTorg,АО «Оборонэнерго» Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/oboronenergo
+TEKTorg,ОАО «РЖД» Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/rzd
+TEKTorg,СПб ГКУ «Управление заказчика» Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/upravlenie_zakazchika
+TEKTorg,[FIO] (Группа ППК) Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/portone
+TEKTorg,ГУП «Петербургский метрополитен» Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/metro_spb
+TEKTorg,АО «Спецнефтетранс» Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/sntrans
+TEKTorg,АО «Силовые машины» Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/silovyi_machine
+TEKTorg,ФГУП «Росморпорт» Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/rosmorport
+TEKTorg,ТЭК Мосэнерго Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/mosenergo
+TEKTorg,En+ Group Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/enplusgroup
+TEKTorg,РТУ МИРЭА Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/mirea
+TEKTorg,ПАО «ГМК «Норильский никель» Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/nornikel
+TEKTorg,ПАО «Юнипро» Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/unipro
+TEKTorg,АО «Зарубежнефть» Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/znft
+TEKTorg,АО «Оборонэнерго» Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/oboronenergo
+TEKTorg,ОАО «РЖД» Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/rzd
+TEKTorg,СПб ГКУ «Управление заказчика» Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/upravlenie_zakazchika
+TEKTorg,[FIO] (Группа ППК) Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/portone
+TEKTorg,ГУП «Петербургский метрополитен» Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/metro_spb
+TEKTorg,АО «Спецнефтетранс» Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/sntrans
+TEKTorg,АО «Силовые машины» Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/silovyi_machine
+TEKTorg,ФГУП «Росморпорт» Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/rosmorport
+TEKTorg,ТЭК Мосэнерго Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/mosenergo
+TEKTorg,En+ Group Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/enplusgroup
+TEKTorg,РТУ МИРЭА Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/mirea
+TEKTorg,ПАО «ГМК «Норильский никель» Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/nornikel
+TEKTorg,ПАО «Юнипро» Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/unipro
+TEKTorg,АО «Зарубежнефть» Закупочные процедуры Закупочные процедуры,https://www.tektorg.ru/org/znft
+TEKTorg,"Эксперты ТЭК-Торг расскажут, как изменятся правила торгов госимуществом с 1 июля 2026 года 16 июня 2026",https://www.tektorg.ru/news-press/eksperty-tek-torg-rasskazut-kak-izmeniatsia-pravila-torgov-gosimushhestvom-s-1-iiulia-2026-goda
+TEKTorg,ТЭК-Торг увеличил на 87% точность подбора закупок для поставщиков 11 июня 2026,https://www.tektorg.ru/news-press/tek-torg-uvelicil-na-87-tocnost-podbora-zakupok-dlia-postavshhikov
+TEKTorg,44-ФЗ ТЭК-Торг приглашает поставщиков на вебинар с Татьяной Леонтьевой 20 мая 2026,https://www.tektorg.ru/news-press/tek-torg-priglasaet-postavshhikov-na-vebinar-s-tatianoi-leontevoi
+TEKTorg,223-ФЗ ТЭК‑Торг проведет бесплатный вебинар о работе в секции ПАО «Интер РАО» 29 апреля 2026,https://www.tektorg.ru/news-press/tektorg-provedet-besplatnyi-vebinar-o-rabote-v-sekcii-pao-inter-rao
+TEKTorg,Как торговый контур может стать «мостиком» между технологиями и бизнесом 27 мая 2026,https://www.tektorg.ru/news-media/kak-torgovyi-kontur-mozet-stat-mostikom-mezdu-texnologiiami-i-biznesom
+TEKTorg,Зачем бизнес переходит на электронные торги 14 мая 2026,https://www.tektorg.ru/news-media/zacem-biznes-perexodit-na-elektronnye-torgi
+TEKTorg,ТЭК-Торг помог 20 компаниям включить продукцию в реестр Минпромторга 24 апреля 2026,https://www.tektorg.ru/news-media/tek-torg-pomog-20-kompaniiam-vkliucit-produkciiu-v-reestr-minpromtorga
+TEKTorg,ЭТП ТЭК-Торг,https://vk.com/etptektorg
+TEKTorg,«Закупочная»,https://vk.com/zakupo4naya
+TEKTorg,Скачать презентацию,https://www.tektorg.ru/documents/Презентация ЭТП ТЭК-Торг.pdf
+TEKTorg,Торговые секции,https://www.tektorg.ru/trade-sections
+TEKTorg,Закупки ПАО «НК «Роснефть»,https://www.tektorg.ru/rosneft
+TEKTorg,Государственные закупки,https://www.tektorg.ru/44-fz
+TEKTorg,Закупки ПАО «Интер РАО»,https://www.tektorg.ru/inter_rao
+TEKTorg,223-ФЗ и Коммерческие закупки,https://www.tektorg.ru/223-fz
+TEKTorg,ТЭК-Торг в СМИ,https://www.tektorg.ru/news-media
+TEKTorg,Анонсы закупок,https://www.tektorg.ru/news-announce
+TEKTorg,Региональные закупки,https://www.tektorg.ru/clients/regions
+TEKTorg,Согласие на получение уведомлений о закупочных процедурах,https://www.tektorg.ru/documents/soglasie-na-poluchenie-uvedomleniy-o-zakupochnyh-procedurah.pdf
+Sberbank-AST,Найти процедуру,https://www.sberbank-ast.ru/UnitedPurchaseList.aspx
+Sberbank-AST,Электронная торговая площадка по 44-ФЗ,http://www.sberbank-ast.ru/
+Sberbank-AST,Универсальная торговая платформа,http://utp.sberbank-ast.ru/
+Sberbank-AST,Закупки по 44-ФЗ,https://www.sberbank-ast.ru/purchaseList.aspx
+Sberbank-AST,Закупки по 223-ФЗ,http://utp.sberbank-ast.ru/Trade/
+Sberbank-AST,Торги коммерческих заказчиков,http://utp.sberbank-ast.ru/VIP/
+Sberbank-AST,"Торги нефтегазовой отрасли, инженерного обеспечения и электроэнергетики",http://utp.sberbank-ast.ru/Neft/NBT/DefaultAction/0/3/0/0
+Sberbank-AST,ПАО «Сбербанк»,http://utp.sberbank-ast.ru/SB/
+Sberbank-AST,АО «Торговый дом РЖД»,http://utp.sberbank-ast.ru/Main/Notice/2243
+Sberbank-AST,АК «АЛРОСА» (ПАО),https://utp.sberbank-ast.ru/Trade/List/BidList/337
+Sberbank-AST,Каталог имущества,https://utp.sberbank-ast.ru/Catalog/List/Index
+Sberbank-AST,Сберключ. ЭДО и Консалтинг,https://www.sberkey.ru/?utm_source=astutp&utm_medium=www&utm_campaign=permanent&utm_content=etp44
+Sberbank-AST,"Электронные подписи от УЦ ""Сбер А""",https://cert.sberbank-ast.ru/?utm_source=ast44&utm_medium=www&utm_campaign=permanent&utm_content=services&utm_context=menu
+Sberbank-AST,График семинаров,https://www.sberbank-ast.ru/SeminarList.aspx
+Sberbank-AST,Учебный центр Сбербанк-АСТ,https://www.sberbank-ast.ru/Page.aspx?cid=2794
+Sberbank-AST,Подготовка к торгам,https://www.sberbank-ast.ru/WhereToBegin.aspx
+Sberbank-AST,Реестр процедур,https://www.sberbank-ast.ru/purchaseList.aspx
+Sberbank-AST,Аукционный зал,https://www.sberbank-ast.ru/PurchaseListToday.aspx
+Sberbank-AST,,https://www.sberbank.com/ru/s_m_business/open-accounts/promo/goskontrakt?utm_source=SberACT&utm_medium=fix&utm_campaign=s_m_business_businessapps_wholesale_purchase_corporate-media_warranties_frk2_mar-jun2026_rk1761048gr52374_rus&utm_content=all&utm_term=main&erid=2RanykxyxpJ
+Sberbank-AST,Закупки по 223-ФЗ,http://utp.sberbank-ast.ru/Trade/
+Sberbank-AST,ПАО «Сбербанк»,http://utp.sberbank-ast.ru/SB/
+Sberbank-AST,Закупки коммерческих Заказчиков,http://utp.sberbank-ast.ru/VIP/
+Sberbank-AST,Сберключ Ключ к Вашим торгам ЭДО и консалтинг,http://www.sberkey.ru/
+Sberbank-AST,Лизинг Подать заявку на лизинг в ПАО Сбербанк,https://www.sberbank-ast.ru/Leasing.html
+Sberbank-AST,Сбер А провел в Красноярске крупную конференцию для заказчиков региона,https://www.sberbank-ast.ru/Content.aspx?cid=11011
+Sberbank-AST,Сбер А и Республика Дагестан: как технологии меняют систему госзакупок.,https://www.sberbank-ast.ru/Content.aspx?cid=11007
+Sberbank-AST,Сбер А провел семинар по медицинским закупкам в Красноярске: практика и риски,https://www.sberbank-ast.ru/Content.aspx?cid=11006
+Sberbank-AST,Сбер А провел семинар по закупкам в Санкт-Петербурге с фокусом на практике в 2026 году,https://www.sberbank-ast.ru/Content.aspx?cid=11005
+Sberbank-AST,SberB2B и Витрина закупок [FIO],https://www.sberbank-ast.ru/Content.aspx?cid=11003
+Sberbank-AST,Очередной поток проекта «Молодой закупщик» успешно завершил обучение в Республике Коми,https://www.sberbank-ast.ru/Content.aspx?cid=11013
+Sberbank-AST,На Сбер А ищут подрядчика для ремонта дворца-музея в Павловске за 302 млн рублей,https://www.sberbank-ast.ru/Content.aspx?cid=11012
+Sberbank-AST,"Сбер А на крупнейшем цифровом форуме ЦИПР-2026: Аналитический портал, благодарственные письма и перспективные переговоры",https://www.sberbank-ast.ru/Content.aspx?cid=11010
+Sberbank-AST,"«Медиация в закупках 2026: законодательство, инновации, практика» - новый тренд в закупочных процессах, которому посвящена программа нового курса Сбер А и Академии контрактных отношений.",https://www.sberbank-ast.ru/Content.aspx?cid=10997
+Sberbank-AST,Сбер А проведет мероприятие федерального уровня в Перми и наградит поставщиков,https://www.sberbank-ast.ru/Content.aspx?cid=10996
+Sberbank-AST,Политика обработки персональных данных,https://www.sberbank-ast.ru/Download2.aspx?fid=b81bac4f-f566-4e3f-8d97-47c1571a2dae
+Sberbank-AST-UTP,Найти процедуру,https://utp.sberbank-ast.ru/Main/List/UnitedPurchaseListNew
+Sberbank-AST-UTP,Электронная торговая площадка по 44-ФЗ,https://www.sberbank-ast.ru/
+Sberbank-AST-UTP,Универсальная торговая платформа,https://utp.sberbank-ast.ru/Main
+Sberbank-AST-UTP,Закупки,https://utp.sberbank-ast.ru/SB/NBT/Index/0/0/0/0
+Sberbank-AST-UTP,Закупки по 44-ФЗ,https://www.sberbank-ast.ru/purchaseList.aspx
+Sberbank-AST-UTP,Закупки по 223-ФЗ,https://utp.sberbank-ast.ru/Trade/
+Sberbank-AST-UTP,Торги коммерческих заказчиков,https://utp.sberbank-ast.ru/VIP/
+Sberbank-AST-UTP,"Торги нефтегазовой отрасли, инженерного обеспечения и электроэнергетики",https://utp.sberbank-ast.ru/TNG/
+Sberbank-AST-UTP,ПАО Сбербанк,https://utp.sberbank-ast.ru/SB/
+Sberbank-AST-UTP,АО «Торговый дом РЖД»,https://utp.sberbank-ast.ru/Main/Notice/924
+Sberbank-AST-UTP,АК «АЛРОСА» (ПАО),https://utp.sberbank-ast.ru/Trade/List/BidList/337
+Sberbank-AST-UTP,Каталог имущества,https://utp.sberbank-ast.ru/Catalog/List/Index
+Sberbank-AST-UTP,"Реестр процедур ППК ""Фонд развития территорий""",https://utp.sberbank-ast.ru/Property/List/BidList/193
+Sberbank-AST-UTP,Имущество ГК Роскосмос,https://utp.sberbank-ast.ru/Property/List/BidList/415
+Sberbank-AST-UTP,Имущество ГК ВЭБ.РФ,https://utp.sberbank-ast.ru/Property/List/BidList/402
+Sberbank-AST-UTP,Продажа Имущества ЗПИФ,https://utp.sberbank-ast.ru/VIP/List/PurchaseListZPIF
+Sberbank-AST-UTP,Арестованное имущество,https://utp.sberbank-ast.ru/AP/List/BidListArrested/365
+Sberbank-AST-UTP,Имущество ДОМ.РФ,https://utp.sberbank-ast.ru/AP/List/BidList/333
+Sberbank-AST-UTP,Сберключ. ЭДО и консалтинг,https://www.sberkey.ru/
+Sberbank-AST-UTP,Продажа долгов,https://utp.sberbank-ast.ru/Main/List/Debts
+Sberbank-AST-UTP,Электронные подписи от УЦ «Сбер А»,https://cert.sberbank-ast.ru/?utm_source=astutp&utm_medium=www&utm_campaign=permanent&utm_content=services&utm_context=menu
+Sberbank-AST-UTP,Учебный центр Сбербанк-АСТ,https://utp.sberbank-ast.ru/Main/Notice/887/Training
+Sberbank-AST-UTP,График семинаров,https://www.sberbank-ast.ru/SeminarList.aspx
+Sberbank-AST-UTP,График семинаров,https://www.sberbank-ast.ru/SeminarList.aspx
+Sberbank-AST-UTP,Учебный центр Сбербанк-АСТ,https://www.sberbank-ast.ru/Page.aspx?cid=2794
+Sberbank-AST-UTP,Закупки ПАО Сбербанк,https://utp.sberbank-ast.ru/SB/
+Sberbank-AST-UTP,'+ ',https://einv.esphere.ru:9443/spk_lkk/?widget=tarif
+Sberbank-AST-UTP,Банковские реквизиты для перечисления денежных средств,https://utp.sberbank-ast.ru/SB/Notice/1444/Requisites
+Sberbank-AST-UTP,Реестр активных процедур,https://utp.sberbank-ast.ru/SB/List/SupplierBidList
+Sberbank-AST-UTP,Положение о закупках ПАО «Сбербанк»,https://zakupki.gov.ru/epz/orderclause/card/common-info.html?reestrNumber=[PHONE]
+Sberbank-AST-UTP,,http://zingaya.com/widget/e69cfa0afa144717b6d4daf53010b3d9
+Sberbank-AST-UTP,Реестре документов,https://utp.sberbank-ast.ru/SB/List/DocumentList
+Sberbank-AST-UTP,Реестре документов,https://utp.sberbank-ast.ru/SB/List/DocumentList
+Sberbank-AST-UTP,Политика обработки персональных данных,https://utp.sberbank-ast.ru/Main/File/DownLoadFile?fid=67449A32-7253-4A2E-AAA2-F2EEFE676653

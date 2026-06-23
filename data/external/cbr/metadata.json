@@ -1,0 +1,22 @@
+{
+  "retrieved_at": "2026-06-18",
+  "period": {
+    "from": "2024-01-01",
+    "to": "2025-12-31"
+  },
+  "series": [
+    {
+      "name": "USD/RUB official exchange rate",
+      "file": "usd_rub_daily.csv",
+      "source": "Bank of Russia",
+      "source_url": "https://www.cbr.ru/scripts/XML_dynamic.asp",
+      "currency_id": "R01235"
+    },
+    {
+      "name": "Bank of Russia key rate",
+      "file": "key_rate_daily.csv",
+      "source": "Bank of Russia",
+      "source_url": "https://www.cbr.ru/hd_base/KeyRate/"
+    }
+  ]
+}

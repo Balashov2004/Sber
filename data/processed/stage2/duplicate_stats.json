@@ -1,0 +1,13 @@
+{
+  "verified_source_rows": 1461,
+  "canonical_purchase_rows": 1458,
+  "duplicate_source_rows": 3,
+  "duplicate_rate_pct": 0.2053,
+  "duplicate_types": {
+    "cross_source_same_purchase": 3
+  },
+  "multi_source_purchases": 3,
+  "single_source_purchases": 1455,
+  "manual_review_candidates": 6302,
+  "organizations": 17
+}

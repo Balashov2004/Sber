@@ -1,0 +1,8 @@
+{
+  "purchases": 1458,
+  "charts": 8,
+  "conclusion_blocks": 8,
+  "notebook": "notebooks\\final_sber_procurement_report.ipynb",
+  "html_report": "data\\processed\\stage4\\stage4_report.html",
+  "contract_price_available": 0
+}

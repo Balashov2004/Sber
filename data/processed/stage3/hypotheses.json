@@ -1,0 +1,46 @@
+[
+  {
+    "hypothesis": "IT procurement amount vs USD/RUB",
+    "metric": "it_amount_rub",
+    "factor": "usd_rub_avg",
+    "observations": 24,
+    "transformation": "log1p",
+    "pearson_r": -0.1039,
+    "p_value": 0.6501,
+    "decision": "not_statistically_significant",
+    "limitation": "Monthly observational association does not establish causality; category classification is keyword-based."
+  },
+  {
+    "hypothesis": "IT procurement count vs USD/RUB",
+    "metric": "it_count",
+    "factor": "usd_rub_avg",
+    "observations": 24,
+    "transformation": "none",
+    "pearson_r": -0.4957,
+    "p_value": 0.0135,
+    "decision": "statistically_significant_association",
+    "limitation": "Monthly observational association does not establish causality; category classification is keyword-based."
+  },
+  {
+    "hypothesis": "Construction procurement amount vs key rate",
+    "metric": "construction_amount_rub",
+    "factor": "key_rate_avg",
+    "observations": 24,
+    "transformation": "log1p",
+    "pearson_r": 0.0134,
+    "p_value": 0.951,
+    "decision": "not_statistically_significant",
+    "limitation": "Monthly observational association does not establish causality; category classification is keyword-based."
+  },
+  {
+    "hypothesis": "Construction procurement count vs key rate",
+    "metric": "construction_count",
+    "factor": "key_rate_avg",
+    "observations": 24,
+    "transformation": "none",
+    "pearson_r": 0.0239,
+    "p_value": 0.9116,
+    "decision": "not_statistically_significant",
+    "limitation": "Monthly observational association does not establish causality; category classification is keyword-based."
+  }
+]

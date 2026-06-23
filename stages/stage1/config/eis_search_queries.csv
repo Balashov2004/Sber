@@ -1,0 +1,21 @@
+query,notes
+Сбербанк,broad brand query
+ПАО Сбербанк,parent company query
+Сбербанк России,parent company legacy/full-name query
+Сбербанк-АСТ,platform subsidiary query
+Сбербанк-Сервис,service subsidiary query
+Сбербанк-Телеком,telecom subsidiary query
+СберЛизинг,leasing brand query
+Сбербанк Лизинг,leasing legal-name query
+Сбербанк Факторинг,factoring subsidiary query
+Сбербанк Страхование,insurance subsidiary query
+Сбербанк Страхование Жизни,life insurance subsidiary query
+НПФ Сбербанка,pension fund subsidiary query
+СберЛогистика,logistics subsidiary query
+Сбербанк КИБ,investment banking subsidiary query
+Сбербанк-Технологии,technology subsidiary query
+СберТех,technology brand query
+Сбербанк Капитал,capital subsidiary query
+Финансовая компания Сбербанка,financial company query
+Страховой брокер Сбербанка,insurance broker subsidiary query
+

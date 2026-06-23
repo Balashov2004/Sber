@@ -1,0 +1,4 @@
+﻿canonical_purchase_id,left_source,left_record_id,right_source,right_record_id,match_method,match_confidence,left_url,right_url
+purchase:1895000000824000001,Sberbank-AST,1895000000824000001,EIS,1895000000824000001,exact_purchase_number,1.0,https://www.sberbank-ast.ru/OK/purchaseview.aspx?id=10184329,https://zakupki.gov.ru/epz/order/notice/ok20/view/common-info.html?regNumber=1895000000824000001
+purchase:1200700144924000002,Sberbank-AST,1200700144924000002,EIS,1200700144924000002,exact_purchase_number,1.0,https://www.sberbank-ast.ru/OK/purchaseview.aspx?id=10170551,https://zakupki.gov.ru/epz/order/notice/ok20/view/common-info.html?regNumber=1200700144924000002
+purchase:1200700144924000001,Sberbank-AST,1200700144924000001,EIS,1200700144924000001,exact_purchase_number,1.0,https://www.sberbank-ast.ru/OK/purchaseview.aspx?id=10167508,https://zakupki.gov.ru/epz/order/notice/ok20/view/common-info.html?regNumber=1200700144924000001
